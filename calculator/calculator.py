@@ -5,7 +5,7 @@ root = Tk()
 # style settings and application info
 root.geometry('188x205+150+200')
 root.title('Calculator')
-# root.overrideredirect(1)
+root.overrideredirect(1)
 root.configure(background='#4D4D4D')
 root.option_readfile('optionDB.txt')
 # screen
@@ -29,4 +29,3 @@ Button(root, text='0').grid(row=5, column=0, columnspan=2, sticky='we')
 Button(root, text='.').grid(row=5, column=2, sticky='we')
 
 root.mainloop()
-
