@@ -27,5 +27,5 @@ Button(root, text='+').grid(row=2, rowspan=2, column=3, sticky='nswe')
 Button(root, text='Enter').grid(row=4, rowspan=2, column=3, sticky='nswe')
 Button(root, text='0').grid(row=5, column=0, columnspan=2, sticky='we')
 Button(root, text='.').grid(row=5, column=2, sticky='we')
-
+# runs the main program loop
 root.mainloop()
