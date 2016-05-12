@@ -14,7 +14,7 @@ display.set('0')
 screen = Label(root, background='#101010', foreground='#D6D6D6', borderwidth=18, relief='sunken', width=16, height=1,
                textvariable=display, anchor='e')
 screen.grid(row=0, column=0, columnspan=4, padx=4, pady=4)
-# buttons (use style from optionDB.txt
+# buttons (use style from optionDB.txt in the same directory
 Button(root, text='C').grid(row=1, column=0, sticky='we')
 Button(root, text='/').grid(row=1, column=1, sticky='we')
 Button(root, text='*').grid(row=1, column=2, sticky='we')
